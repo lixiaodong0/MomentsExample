@@ -1,0 +1,237 @@
+[{
+		"type": 1,
+		"content": "发表的内容1",
+		"date": "1527144208249",
+		"user": {
+			"name": "张三",
+			"img_url": "http://5b0988e595225.cdn.sohucs.com/images/20171219/7d8a94b9450e47808e5048cffd60a9b1.jpeg"
+		}
+	},
+	{
+		"type": 1,
+		"content": "发表的内容2",
+		"date": "1527144208240",
+		"user": {
+			"name": "李四",
+			"img_url": "http://5b0988e595225.cdn.sohucs.com/images/20171219/7d8a94b9450e47808e5048cffd60a9b1.jpeg"
+		}
+	},
+	{
+		"type": 1,
+		"content": "发表的内容3",
+		"date": "1527144208210",
+		"user": {
+			"name": "王五",
+			"img_url": "http://5b0988e595225.cdn.sohucs.com/images/20171219/7d8a94b9450e47808e5048cffd60a9b1.jpeg"
+		}
+	},
+	{
+		"type": 2,
+		"content": "像微信这样的熟人社交工具，在产品的设计理念上，为了保持使用者的隐私性，在线状态、已读回执等涉及隐私的功能，都没有提供。但很多时候，尤其商务、办公场合下，特别需要一种强反馈的工具，这对于打造高效的团队很有帮助（虽然员工很反感，但老板都喜欢这样的功能，哈哈",
+		"date": "1527144208200",
+		"user": {
+			"name": "赵六",
+			"img_url": "http://5b0988e595225.cdn.sohucs.com/images/20171219/7d8a94b9450e47808e5048cffd60a9b1.jpeg"
+		},
+		"img_list": [{
+				"url": "http://img3.duitang.com/uploads/item/201504/27/20150427220929_ZXRCk.jpeg"
+			},
+			{
+				"url": "http://img3.duitang.com/uploads/item/201504/27/20150427220929_ZXRCk.jpeg"
+			},
+			{
+				"url": "http://img3.duitang.com/uploads/item/201504/27/20150427220929_ZXRCk.jpeg"
+			},
+			{
+				"url": "http://img3.duitang.com/uploads/item/201504/27/20150427220929_ZXRCk.jpeg"
+			},
+			{
+				"url": "http://img3.duitang.com/uploads/item/201504/27/20150427220929_ZXRCk.jpeg"
+			},
+			{
+				"url": "http://img3.duitang.com/uploads/item/201504/27/20150427220929_ZXRCk.jpeg"
+			},
+			{
+				"url": "http://img3.duitang.com/uploads/item/201504/27/20150427220929_ZXRCk.jpeg"
+			},
+			{
+				"url": "http://img3.duitang.com/uploads/item/201504/27/20150427220929_ZXRCk.jpeg"
+			}
+		]
+	},
+	{
+		"type": 1,
+		"content": "发表的内容3",
+		"date": "1527144207000",
+		"user": {
+			"name": "王五",
+			"img_url": "http://5b0988e595225.cdn.sohucs.com/images/20171219/7d8a94b9450e47808e5048cffd60a9b1.jpeg"
+		},
+		"like_list": [{
+				"user": {
+					"name": "赵云",
+					"img_url": "http://cron.qqe2.com/"
+				}
+			},
+			{
+				"user": {
+					"name": "马超",
+					"img_url": "http://cron.qqe2.com/"
+				}
+			},
+			{
+				"user": {
+					"name": "黄总",
+					"img_url": "http://cron.qqe2.com/"
+				}
+			},
+			{
+				"user": {
+					"name": "关羽",
+					"img_url": "http://cron.qqe2.com/"
+				}
+			},
+			{
+				"user": {
+					"name": "张飞",
+					"img_url": "http://cron.qqe2.com/"
+				}
+			},
+			{
+				"user": {
+					"name": "刘备",
+					"img_url": "http://cron.qqe2.com/"
+				}
+			}
+
+		],
+		"comment_list": [{
+				"text": "我是张三",
+				"from": {
+					"name": "张三",
+					"img_url": "http://cron.qqe2.com/"
+				}
+			},
+			{
+				"text": "我是李四",
+				"from": {
+					"name": "李四",
+					"img_url": "http://cron.qqe2.com/"
+				}
+			},
+			{
+				"text": "我是王五",
+				"from": {
+					"name": "王五",
+					"img_url": "http://cron.qqe2.com/"
+				},
+				"to": {
+					"name": "李四",
+					"img_url": "http://cron.qqe2.com/"
+				}
+			}
+		]
+	},
+	{
+		"type": 3,
+		"content": "发表的内容3",
+		"date": "1527144206000",
+		"user": {
+			"name": "王五",
+			"img_url": "http://5b0988e595225.cdn.sohucs.com/images/20171219/7d8a94b9450e47808e5048cffd60a9b1.jpeg"
+		},
+		"like_list": [{
+				"user": {
+					"name": "赵云",
+					"img_url": "http://cron.qqe2.com/"
+				}
+			},
+			{
+				"user": {
+					"name": "马超",
+					"img_url": "http://cron.qqe2.com/"
+				}
+			},
+			{
+				"user": {
+					"name": "黄总",
+					"img_url": "http://cron.qqe2.com/"
+				}
+			},
+			{
+				"user": {
+					"name": "关羽",
+					"img_url": "http://cron.qqe2.com/"
+				}
+			},
+			{
+				"user": {
+					"name": "张飞",
+					"img_url": "http://cron.qqe2.com/"
+				}
+			},
+			{
+				"user": {
+					"name": "刘备",
+					"img_url": "http://cron.qqe2.com/"
+				}
+			}
+
+		],
+		"video_list": [{
+			"preview_url": "http://img3.duitang.com/uploads/item/201504/27/20150427220929_ZXRCk.jpeg",
+			"url": "http://www.baidu.com"
+		}]
+	},
+	{
+		"type": 4,
+		"content": "测试分享网页",
+		"date": "1527144200000",
+		"user": {
+			"name": "有道词典",
+			"img_url": "http://5b0988e595225.cdn.sohucs.com/images/20171219/7d8a94b9450e47808e5048cffd60a9b1.jpeg"
+		},
+		"share": {
+			"type": 1,
+			"icon": "http://5b0988e595225.cdn.sohucs.com/images/20171219/7d8a94b9450e47808e5048cffd60a9b1.jpeg",
+			"url": "http://www.baidu.com",
+			"title": "",
+			"content": "分享有道词典的网页",
+			"app": "有道词典"
+		}
+	},
+	{
+		"type": 4,
+		"content": "测试分享视频",
+		"date": "1527144200000",
+		"user": {
+			"name": "爱奇艺",
+			"img_url": "http://5b0988e595225.cdn.sohucs.com/images/20171219/7d8a94b9450e47808e5048cffd60a9b1.jpeg"
+		},
+		"share": {
+			"type": 2,
+			"icon": "http://5b0988e595225.cdn.sohucs.com/images/20171219/7d8a94b9450e47808e5048cffd60a9b1.jpeg",
+			"url": "http://www.aiqiyi.com",
+			"title": "复仇者联盟3",
+			"content": "绝壁好看的电影",
+			"app": "爱奇艺"
+		}
+	},
+	{
+		"type": 4,
+		"content": "",
+		"date": "1527144200000",
+		"user": {
+			"name": "网易云音乐",
+			"img_url": "http://5b0988e595225.cdn.sohucs.com/images/20171219/7d8a94b9450e47808e5048cffd60a9b1.jpeg"
+		},
+		"share": {
+			"type": 3,
+			"icon": "http://5b0988e595225.cdn.sohucs.com/images/20171219/7d8a94b9450e47808e5048cffd60a9b1.jpeg",
+			"url": "http://www.aiqiyi.com",
+			"title": "可惜没有如果",
+			"content": "作者:林俊杰",
+			"app": "网易云音乐"
+		}
+	}
+]

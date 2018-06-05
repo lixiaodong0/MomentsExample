@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RatioImageView">
+        <attr name="ratio" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="NineGridLayout">
+        <attr name="sapcing" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="AppBarLayout">
+        <attr name="title" format="string"/>
+        <attr name="leftRes" format="reference"/>
+        <attr name="rightRes" format="reference"/>
+        <attr name="rightVisible" format="boolean"/>
+    </declare-styleable>
+
+</resources>

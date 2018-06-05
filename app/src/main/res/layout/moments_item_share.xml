@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp">
+
+    <ImageView
+        android:id="@+id/img_user"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher_round"/>
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="李晓东"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:visibility="visible"
+        app:layout_constraintLeft_toRightOf="@id/img_user"
+        app:layout_constraintTop_toTopOf="@id/img_user"/>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guide_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:text="我是内容啦啦啦啦我是内容啦啦啦啦我是内容啦啦啦啦我是内容啦啦啦啦我是内容啦啦啦啦我是内容啦啦啦啦我是内容啦啦啦啦我是内容啦啦啦啦我是内容啦啦啦啦我是内容啦啦啦啦我是内容啦啦啦啦我是内容啦啦啦啦我是内容啦啦啦啦我是内容啦啦啦啦我是内容啦啦啦啦"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="@id/tv_user_name"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guide_line"/>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cl_share_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        app:layout_constraintLeft_toLeftOf="@id/tv_user_name"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_content">
+
+        <ImageView
+            android:id="@+id/img_share_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/ic_launcher_round"/>
+
+        <TextView
+            android:id="@+id/tv_share_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="阿斯加德卡拉丁金坷垃手机打开拉家带口垃圾aaaaaaaaaaaaaaaaaaaa坑了大家可拉伸"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/img_share_icon"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ImageView
+            android:id="@+id/img_play_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:layout_constraintBottom_toBottomOf="@id/img_share_icon"
+            app:layout_constraintLeft_toLeftOf="@id/img_share_icon"
+            app:layout_constraintRight_toRightOf="@id/img_share_icon"
+            app:layout_constraintTop_toTopOf="@id/img_share_icon"
+            app:srcCompat="@mipmap/video"/>
+
+        <android.support.constraint.Guideline
+            android:id="@+id/horizontal_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.5"/>
+
+        <TextView
+            android:id="@+id/tv_media_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="可惜没有如果"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="@id/horizontal_line"
+            app:layout_constraintLeft_toRightOf="@id/img_share_icon"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+        <TextView
+            android:id="@+id/tv_media_des"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="作者:林俊杰"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            app:layout_constraintLeft_toLeftOf="@id/tv_media_title"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/horizontal_line"/>
+
+        <android.support.constraint.Group
+            android:id="@+id/group_media"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            app:constraint_referenced_ids="tv_media_title,tv_media_des,img_play_icon"
+            android:layout_height="wrap_content"/>
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="45分钟以前"
+        app:layout_constraintLeft_toLeftOf="@id/tv_user_name"
+        app:layout_constraintTop_toBottomOf="@id/cl_share_layout"/>
+
+    <TextView
+        android:id="@+id/tv_share_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="网易云音乐"
+        app:layout_constraintBaseline_toBaselineOf="@id/tv_time"
+        app:layout_constraintLeft_toRightOf="@id/tv_time"/>
+
+    <ImageView
+        android:id="@+id/img_comment"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintBottom_toBottomOf="@id/tv_time"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@mipmap/comment"/>
+
+    <View
+        android:id="@+id/split_line"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintTop_toBottomOf="@id/tv_time"/>
+
+</android.support.constraint.ConstraintLayout>

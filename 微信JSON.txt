@@ -1,0 +1,49 @@
+{
+  "type": 1,
+  "content": "发表的内容",
+  "date": "2018年5月23日10:00:57",
+  "user": {
+    "id":1,
+    "name": "张三",
+    "img_url": "http://cron.qqe2.com/"
+  },
+  "img_list": [
+    {
+      "url": "http://cron.qqe2.com/"
+    }
+  ],
+  "share":{
+      "type":1,
+      "icon":"",
+      "url":"",
+      "title":"",
+      "content":""
+      "app":"QQ音乐"
+  },
+  "video_list":[
+    {
+        "url":"http://www.baidu.com"
+    }
+  ],
+  "like_list": [
+    {
+		"user":{
+		  "name": "张三",
+		  "img_url": "http://cron.qqe2.com/"
+		}
+    }
+  ],
+  "comment_list": [
+    {
+      "text": "评论内容",
+      "from":  {
+          "name": "张三",
+          "img_url": "http://cron.qqe2.com/"
+      },
+      "to": {
+          "name": "张三",
+          "img_url": "http://cron.qqe2.com/"
+      }
+    }
+  ]
+}

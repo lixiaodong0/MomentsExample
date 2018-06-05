@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">仿微信朋友圈列表</string>
+    <string name="preview_transition_name">previewTransition</string>
+</resources>

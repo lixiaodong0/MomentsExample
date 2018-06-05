@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#393A3F</item>
+        <item name="colorPrimaryDark">#393A3F</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="PreviewActivityTheme" parent="Theme.AppCompat.NoActionBar">
+        <!--透明 防止activity闪烁-->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/black</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="CommentEditTheme" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">#1AAD19</item>
+        <item name="colorControlActivated">#1AAD19</item>
+    </style>
+
+</resources>
